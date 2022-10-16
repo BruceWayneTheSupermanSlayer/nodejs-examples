@@ -1,0 +1,2 @@
+FROM postgres
+COPY postgres-shard-example.sql /docker-entrypoint-initdb.d/
